@@ -9,8 +9,8 @@ import java.util.Map;
 public class Ex_01TelephoneBook {
     public static void main(String[] args) {
         TelephoneBook tBook = new TelephoneBook();
-        tBook.add("1234567", "Петров");
-        tBook.add("1034567", "Комаров");
+        tBook.add("Петров", "1234567");
+        tBook.add("Комаров", "1034567");
         tBook.add("1834567", "Семёнов");
         tBook.add("2234567", "Петров");
         tBook.add("2034567", "Петров");
@@ -27,6 +27,4 @@ public class Ex_01TelephoneBook {
         tBook.print("Фадеев");
         tBook.print("Кириллов");
     }
-
-
 }
